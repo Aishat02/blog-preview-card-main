@@ -31,6 +31,9 @@ body {
   width: 200px;
   margin-bottom: 0.5em;
 }
+h1 {
+   font-size: 24px;
+}
 .text {
   color: var(--Grey);
   line-height: 1.5em;
@@ -46,9 +49,12 @@ body {
   display: flex;
 }
 .avatar {
-  width: 56px;
+  padding-top: 0.5em;
+  width: 32px;
+  height: 35px;
 }
-h4 {
+h2 {
+  font-size: 16px;
   padding-left: 10px;
 }
 .attribution {
@@ -59,7 +65,7 @@ h4 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-h2:hover {
+h1:hover {
   color: var(--Yellow);
   cursor: url("./assets/images/pointer-icon.svg"), auto;
 }
