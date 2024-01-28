@@ -36,7 +36,7 @@ Users should be able to:
 - I learned about cursor property, using icons/images in the cursor property value
 
 ```css
-h2:hover {
+h1:hover {
   color: var(--Yellow);
   cursor: url("./assets/images/pointer-icon.svg"), auto;
 }
